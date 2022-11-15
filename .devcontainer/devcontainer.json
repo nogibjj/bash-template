@@ -1,35 +1,28 @@
 {
-	"name": "Bash (Community)",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-
-	// Configure tool-specific properties.
+	"name": "Default Linux Universal",
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 	"customizations": {
-		// Configure properties specific to VS Code.
 		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": { 
-				"terminal.integrated.defaultProfile.linux": "bash"
-			},
-			
-			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"mads-hartmann.bash-ide-vscode",
-				"rogalmic.bash-debug",
-				"shakram02.bash-beautify",
 				"GitHub.copilot-labs",
-				"GitHub.copilot-nightly"
+				"GitHub.copilot-nightly",
+				"ms-vscode.makefile-tools"
 			]
 		}
-	},
-	
+	}
+
+	// Features to add to the dev container. More info: https://containers.dev/implementors/features.
+	// "features": {},
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [],
-	
+	// "forwardPorts": [],
+
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
-	
-	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
