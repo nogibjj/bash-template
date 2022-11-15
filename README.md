@@ -1,6 +1,11 @@
 # bash-template
 A Template for coding in Bash
 
+## Lesson 2
+
+* Figure out a build system to check and lint bash code
+
+
 ## Lesson 1
 
 * List of dev containers:  https://github.com/microsoft/vscode-dev-containers/tree/main/containers
