@@ -1,9 +1,75 @@
 # bash-template
 A Template for coding in Bash
 
+## Lesson 3
+
+* TBD: Figure out a build system to check and lint bash code
+
 ## Lesson 2
 
-* Figure out a build system to check and lint bash code
+* Shell initialization files
+
+`~/.bashrc` :  A place to automation
+
+1. to edit ~/.bashrc `vim ~/.bashrc`
+
+* Variables
+
+Putting spaces around the equal sign will cause errors.
+
+```
+APPLE="apple"
+echo $APPLE
+```
+
+To delete a variable you use `unset` i.e `unset APPLE`
+
+### How to test a local variable
+
+This is only local:
+
+```
+PEAR="pear"
+echo $PEAR
+```
+
+to fix use `export` (but only to child shell)
+
+```
+export LEMON="lemon"
+echo $LEMON
+```
+
+
+* Quoting characters
+
+```
+TODAY=`date`
+echo $TODAY
+echo '$TODAY' #won't display variable output
+echo "$TODAY" #will display
+
+```
+
+* Shell expansion
+
+HOME is equal to ~
+```
+cd ~
+echo $HOME
+```
+
+
+* Aliases
+
+To edit bashrc shortcut
+`alias ec='vim ~/.bashrc'`
+
+To reload bashrc shortcut
+`alias rl='source ~/.bashrc'`
+
+
+* [Bash Environment](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
 
 ## Lesson 1
