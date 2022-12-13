@@ -1,9 +1,16 @@
 # bash-template
 A Template for coding in Bash
 
-## Lesson 3
+## Lesson 4:  Fix Volume Mount
 
-* TBD: Figure out a build system to check and lint bash code
+
+## Lesson 3:  Configure Dockerfiles for Bash Scripts
+
+Invoke Docker via volume mount:
+
+WARNING BROKEN!!!
+`docker run -it --rm -v $(pwd):/tmp adaf5a928ce4 /bin/bash /tmp/helloWorld.sh`
+
 
 ## Lesson 2
 
@@ -79,3 +86,8 @@ To reload bashrc shortcut
 
 1. Build a hello world `helloWorld.sh`
 2. Build a phrase repeater `phrase.sh`
+
+
+## Lessons ideas
+
+* TBD: Figure out a build system to check and lint bash code
