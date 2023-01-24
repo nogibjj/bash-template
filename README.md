@@ -1,6 +1,26 @@
 # bash-template
 A Template for coding in Bash
 
+
+## Lesson 5:  Makefiles
+
+tldr; you can use the `Makefile` to build and run, i.e: `make invoke`
+
+`docker run -it marco:latest /bin/bash ./marco.sh "Marco"`
+
+cd `makeLesson`
+`touch Makefile`
+
+To run it you do the following:  `./marco.sh "Marco"`
+
+or we tweak our `Makefile` and tell it to run:
+
+`make run`
+
+Let's use this `Makefile` to build Docker
+
+
+
 ## Lesson 4:  Fix Volume Mount
 
 
