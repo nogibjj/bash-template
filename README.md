@@ -1,6 +1,60 @@
 # bash-template
 A Template for coding in Bash
 
+Bash scripting is a powerful tool for automating tasks on Unix-like systems. Here are some common actions you can demonstrate using Bash scripts:
+
+File and directory manipulation:
+
+Create, move, copy, delete files and directories
+Rename files and directories
+Change file permissions and ownership
+Text processing:
+
+Read and write to files
+Search for patterns in files using grep
+Perform text manipulation with tools like awk and sed
+System administration tasks:
+
+Monitor system resources (CPU, memory, disk usage)
+Manage processes and services
+Backup and restore files
+User management:
+
+Add, delete, and modify user accounts
+Set and enforce password policies
+Networking tasks:
+
+Check network connectivity
+Download files from the internet using curl or wget
+Monitor network traffic and bandwidth
+Automation and scheduling:
+
+Execute tasks at specified times with cron jobs
+Run a series of commands in sequence or in parallel
+Custom command-line tools:
+
+Create custom commands by combining existing tools
+Implement command-line arguments and options for your script
+Logging and reporting:
+
+Record script execution details to a log file
+Generate reports based on logged data
+Error handling and debugging:
+
+Handle errors and exceptions gracefully
+Use debugging techniques like setting breakpoints and tracing variables
+Environment management:
+
+Set and modify environment variables
+Create and manage aliases and function
+
+
+## Lesson 6:  Manipulate the File System
+
+`filesystem-proj`
+
+`./create-tree-all.sh --help`
+
 
 ## Lesson 5:  Makefiles
 
